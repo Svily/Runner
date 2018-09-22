@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Administrator/Desktop/test.apk
+C:/Users/Administrator/Desktop/runner.apk
 SceneListBegin?
 Assets/Scences/Start.unity
 Assets/Scences/Game.unity
@@ -262,3 +262,5 @@ d653f62696ac919674f74bef9fa06752 Assembly-CSharp.dll:HedgehogTeam.EasyTouch.Quic
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SliderText
 750189b42ec599a86f3eb66f7024f3e0 Assembly-CSharp.dll:.ControlUIInput
 7a9b2bc4c7be55d414c6022a3dda7baa Assembly-CSharp.dll:.MultiCameraUI
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PostEffectsBase
+efb1991c3ece5d0f18001203c54b5e47 Assembly-CSharp.dll:.FogWithNoise

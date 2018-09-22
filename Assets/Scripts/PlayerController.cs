@@ -169,6 +169,7 @@ public class PlayerController : MonoBehaviour
     void PlayerColliderDead()
     {
         CanMove = false;
+        GameObject.Find ("Controller").active = false;
         Animator.SetBool("Dead", true);
         Invoke("GameOver",2f);
     }

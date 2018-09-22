@@ -32,8 +32,8 @@ public class RoadManager : MonoBehaviour
             }
 
 
-            Instantiate(RoadTemplate, RodePostion + new Vector3(0, 0, 34.9f), Quaternion.identity);
-
+            GameObject go = Instantiate(RoadTemplate, RodePostion + new Vector3(0, 0, 34.9f), Quaternion.identity);
+            go.transform.parent = GameObject.Find("Roads").transform;
             //销毁
             Invoke("Destory",15f);
         }
